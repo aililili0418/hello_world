@@ -10,7 +10,7 @@ int main()
     HWND game_window = FindWindowA(NULL, _T("Plants vs. Zombies"));
     if (game_window == NULL)
     {
-        printf("没有找到游戏！！\n");
+        printf("没有找到游戏！\n");
         system("pause");
         return 0;
     }
